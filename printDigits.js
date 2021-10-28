@@ -19,10 +19,12 @@
 function printDigits (num){
     
     const numArr = num.split('');
+ 
+     for(let i=numArr.lenght-1; i>= 0; i--){
+         for(let j=i+1; j<numArr.lenght; j++){
+          return numArr;
 
-     for(let i=numArr.lenght-1; i> 0; i--){
-         return numArr;
-     }
+     }}
 
 
 //     while(num>0){  
